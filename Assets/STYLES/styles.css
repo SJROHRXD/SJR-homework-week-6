@@ -1,13 +1,73 @@
 /* style initial */
 
+body {
+  background-color: burlywood;
+}
 
 #foot {
-    text-align: center;
+  text-align: center;
+  margin-top: 20%;
 }
 
 .jumbotron {
-    text-align: center;
-    background-color: bisque;
-    padding-bottom: 5%;
-    margin-bottom: 5%;
+  text-align: center;
+  background-color: bisque;
+  padding-bottom: 5%;
+  margin-bottom: 5%;
+}
+
+.chunkTop {
+  display: inline-block;
+  letter-spacing: .5px;
+  /* padding: 0%;
+  margin: 0%; */
+}
+
+#cWOPlist {
+  text-align: justify;
+  /* align-items: center;
+  align-content: center;
+  vertical-align: middle; */
+  /* margin: 0 auto;
+  padding: 0 auto; */
+}
+
+.row #cWOPlist {
+  align-self: center;
+  align-content: center;
+  text-align: center;
+}
+
+.fas {
+  letter-spacing: 2px;
+}
+
+#jumboText {
+  text-shadow: rgb(150, 75, 21) 1px 1px 5px;
+  font-weight: 400;
+}
+
+h3 {
+  text-shadow: rgb(150, 75, 21) 1px 1px 5px;
+}
+
+#currentWOP.col {
+  background-color: rgb(253, 214, 166);
+  font-size: 1.5rem;
+  padding-top: 3%;
+}
+
+
+#weatherForm {
+  background-color: bisque;
+  border-color: bisque;
+  border-width: 2px;
+  /* border-radius: unset; */
+  border-radius: 15px;
+  padding: 2%;
+}
+
+#currentDay,
+#currentTime {
+  text-shadow: chocolate 1px 1px 5px;
 }
